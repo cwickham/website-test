@@ -1,27 +1,37 @@
-## Steps to Create this Website 
+## Steps to Create this Website
 
-```{.bash}
-quarto create
-```
-`project`>`website`
+1.  Terminal:
 
+    ``` bash
+    quarto create
+    ```
 
-```{.r}
-usethis::use_git()
-```
+    `project`\>`website`
 
-```{.bash}
-quarto render
-```
-Adds right things to `.gitignore` if it exists (?)
+2. R:
 
+    ``` r
+    usethis::use_git()
+    ```
 
-```{.r}
-usethis::use_github()
-```
+3.  Terminal:
+    
+    ``` bash
+    quarto render
+    ```
 
-```{.bash}
-quarto publish gh-pages
-```
+    Adds right things to `.gitignore` if it exists (?)
+
+4.  R:
+    
+    ``` r
+    usethis::use_github()
+    ```
+
+5. Terminal:
+
+    ``` bash
+    quarto publish gh-pages
+    ```
 
 Works great!
