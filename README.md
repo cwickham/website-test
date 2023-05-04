@@ -34,4 +34,6 @@
     quarto publish gh-pages
     ```
 
+    Creates `gh-pages` branch. Changes Pages settings on GitHub. Renders and Pushes. But, no `_publish.yml` created.
+
 Works great!
