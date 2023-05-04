@@ -1,24 +1,26 @@
-```
+## Steps to Create this Website 
+
+```{.bash}
 quarto create
 ```
 `project`>`website`
 
 
-```{r}
+```{.r}
 usethis::use_git()
 ```
 
-```
+```{.bash}
 quarto render
 ```
 Adds right things to `.gitignore` if it exists (?)
 
 
-```{r}
+```{.r}
 usethis::use_github()
 ```
 
-```{bash}
+```{.bash}
 quarto publish gh-pages
 ```
 
